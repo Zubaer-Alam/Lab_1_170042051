@@ -2,7 +2,6 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.write('<h1>Hello</h2>');
-  //since the code is HTML, that's why we use double quotation marks
   res.end();
 });
 
